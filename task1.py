@@ -10,3 +10,16 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 5. Arrange the Meals in alphabetical order
 → Modify the list as required and print the final list and the center meal.
 """
+
+meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
+meals.insert(4,"Miyan Taushe")
+print(meals)
+meals.remove(meals[1])
+print(meals)
+meals.remove(meals[2])
+meals.append("Fura da Nono")
+center = (meals[3])
+meals.sort()
+print(meals)
+print(center)
+
