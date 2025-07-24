@@ -10,3 +10,15 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"]
+genres.append("Drama")
+genres.remove(genres[3])
+nunoffilm =(len(genres))
+print(f"we are going to present you a{numoffilm} number of genres")
+second =genres[0]
+secondlast =genres [-2]
+print("{}{} this is second and second to the last".format(second,secondlast))
+
+      
+
+
